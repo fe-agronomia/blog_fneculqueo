@@ -1,5 +1,5 @@
 ---
-title: "Fernando neculqueo"
+title: "Fernando Neculqueo"
 comments: false
 #image: bea.jpg
 about:

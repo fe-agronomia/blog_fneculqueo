@@ -78,7 +78,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -106,7 +107,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -134,7 +136,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -228,11 +231,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-posts">    
         <li>
-    <a class="dropdown-item" href="./posts/index.qmd">
+    <a class="dropdown-item" href="./posts/index.html">
  <span class="dropdown-text">All posts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts/en.qmd">
+    <a class="dropdown-item" href="./posts/en.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
@@ -307,15 +310,13 @@ window.Quarto = {
 <h2 data-anchor-id="textosposts">Textos/Posts</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722534956773" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./about.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722537820937" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<a href="./404.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./bea.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Beatriz Milz
+Page Not Found
 </h5>
 <div class="listing-reading-time card-text text-muted">
 1 minutos
@@ -328,11 +329,73 @@ Beatriz Milz
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1722538329598" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<a href="./about.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 minutos
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1722538251498" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<a href="./posts/en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 minutos
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="cloud" data-listing-file-modified-sort="1722538286134" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./posts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Posts
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 minutos
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cloud'); return false;">
+cloud
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -364,10 +427,10 @@ Harlow Malloc
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="5" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
@@ -396,6 +459,9 @@ Tristan O’Malley
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
 </div>
+<nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="apresentaçõespresentations" class="level2">
@@ -403,25 +469,59 @@ Nenhum item correspondente
 <p><a href="./talks/index.html">Veja todas as apresentações aqui! / See all talks here!</a></p>
 <div id="listing-talks" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722534956773" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./about.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722537820937" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<a href="./404.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./bea.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Beatriz Milz
+Page Not Found
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1722538329598" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<a href="./about.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1722538251498" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<a href="./posts/en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="cloud" data-listing-file-modified-sort="1722538286134" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./posts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Posts
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -436,10 +536,10 @@ Post With Code
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="5" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
@@ -457,31 +557,68 @@ Welcome To My Blog
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
 </div>
+<nav id="talks-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="pesquisaresearch" class="level2">
 <h2 data-anchor-id="pesquisaresearch">Pesquisa/Research</h2>
 <div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722534956773" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./about.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1722537820937" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<a href="./404.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./bea.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Beatriz Milz
+Page Not Found
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1722538329598" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<a href="./about.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1722538251498" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<a href="./posts/en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fernando Neculqueo
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="cloud" data-listing-file-modified-sort="1722538286134" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./posts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Posts
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-date-sort="1722481200000" data-listing-file-modified-sort="1722522999860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -496,10 +633,10 @@ Post With Code
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="5" data-categories="news" data-listing-date-sort="1722222000000" data-listing-file-modified-sort="1722522999856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
@@ -517,6 +654,9 @@ Welcome To My Blog
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
 </div>
+<nav id="research-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <hr>
 
