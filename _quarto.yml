@@ -14,13 +14,13 @@ website:
       - icon: github
         href: https://github.com/fe-agronomia/
       - icon: instagram
-        href: https://www.instagram.com/fneculqueo/
+        href: https://www.instagram.com/fe_neculqueo/
       - icon: linkedin
-        href: https://www.linkedin.com/in/fernandoneculqueo/
+        href: https://www.linkedin.com/in/fernando-neculqueo-78096616a/
       - icon: envelope
         href: mailto:fernandoneculqueo@hotmail.com
-      - icon: newspaper
-        href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
+      #- icon: newspaper
+        #href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
   navbar:
     right:
       - text: About
@@ -58,7 +58,7 @@ website:
       - icon: github
         href: https://github.com/fe-agronomia/blog_fneculqueo
       - icon: linkedin
-        href: https://www.linkedin.com/in/fernandoneculqueo/
+        href: https://www.linkedin.com/in/fernando-neculqueo-78096616a/
 
 lang: pt
 
