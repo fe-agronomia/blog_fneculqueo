@@ -31,7 +31,7 @@ about:
 </center>
 
 ::: {#hero-heading}
-Fernando Neculqueo is an agronomic engineer. He is a research analyst interested in Sugar & Ethanol.
+Fernando Neculqueo is an agronomic engineer. He is a data analyst interested in Sugar & Ethanol.
 
 He advocates for Open Data, Open Science, and Open Source Software.
 
