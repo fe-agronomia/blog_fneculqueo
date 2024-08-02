@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/404.html",
+      "/about.html",
+      "/posts/en.html",
+      "/posts/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/en.html",
+    "items": [
+      "/posts/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/en.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]
