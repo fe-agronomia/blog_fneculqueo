@@ -1,7 +1,7 @@
 ---
 title: "Fernando Neculqueo"
 comments: false
-#image: bea.jpg
+image: fernando.jpg
 about:
   template: trestles
   links:

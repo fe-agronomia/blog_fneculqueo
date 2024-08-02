@@ -34,7 +34,7 @@ comments: false
 toc: false
 about:
   template: marquee
-#  image: bea.jpg
+  image: fernando.jpg
   links:
     - icon: envelope
       text: Email
